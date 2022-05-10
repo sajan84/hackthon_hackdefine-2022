@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Find Your Favorite Community</title>
+  <link rel="Icon" href="image/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="in.js">
+</head>
+
+<body class="bg-gray-900" style="scroll-behavior: smooth;">
+
+
+
+
+  <header class="text-gray-300 bg-gray-900 body-font  sticky top-0 z-50">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img class="img" src="image/logo.png" alt="">
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center space-x-10">
+        <a class="mr-5 ml-5 hover:text-sky-500 text-xl" href="#home">Home</a>
+        <a class="mr-5 hover:text-sky-500 text-xl " href="#about">About</a>
+        <a class="mr-5 hover:text-sky-500 text-xl " href="#community">Community</a>
+        <a class="mr-5 hover:text-sky-500 text-xl " href="#contact">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <div id="home">
+    <section class="text-gray-300 bg-gray-900">
+      <div class="row mt-28">
+        <div class="col info text-center">
+          <h1
+            class=" text-center text-9xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 hover:translate-x-10"
+            style="font-size:70px;">GROUPP</h1>
+          <h1 class="mt-20 text-center">We help you to find the nearest Communities around you.</h1>
+        </div>
+        <div class="col imgg">
+          <img src="./image/grp.png" alt="error" />
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#fff" fill-opacity="1"
+      d="M0,96L30,101.3C60,107,120,117,180,138.7C240,160,300,192,360,186.7C420,181,480,139,540,112C600,85,660,75,720,85.3C780,96,840,128,900,149.3C960,171,1020,181,1080,165.3C1140,149,1200,107,1260,106.7C1320,107,1380,149,1410,170.7L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+    </path>
+  </svg>
+
+
+
+  <section class="text-gray-200 bg-gray-900 body-font" id="about">
+    <div class="container px-4 py-24 mx-auto">
+      <h1
+        class="text-6xl title-font mr-2 text-gray-100 mb-12 text-center font-serif font-extralight hover:text-sky-500 hover:translate-x-10">
+        About </h1>
+      <div class="ml-20">
+        <div class="p-2 md:w-4/5 w-full">
+          <div class="h-full bg-gray-900 p-8 rounded">
+            <h1 class=" text-5xl mb-3 font-serif font-extralight text-white">vission</h1>
+            <div class="h-2 w-32 bg-sky-600 mb-4"></div>
+            <p class="leading-relaxed text-justify text-2xl mb-6">Through this website. we will help to those students who are eager to find community nearby locations.</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-4/5 w-full">
+          <div class="h-full bg-gray-900 p-8 rounded">
+            <h1 class=" text-5xl mb-3 font-serif font-extralight text-white">Mission</h1>
+            <div class="h-2 w-32 bg-sky-600 mb-4"></div>
+            <p class="leading-relaxed text-justify text-2xl ">Our mission is that people can attached with community and grow up their skills.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section
+    class="text-gray-200  stroke-gray-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  bg-gray-900 body-font"
+    id="community">
+    <div class="container px-5 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <div class="p-4 md:w-4/5 w-full ml-10">
+          <div class="container px-5 ml-6 py-24 mx-auto">
+            <h1
+              class="text-6xl title-font text-gray-100 mb-5 text-center font-serif font-extralight hover:text-sky-500 hover:translate-x-10">
+              Community </h1>
+          </div>
+          <div class=" mx-16">
+            <h1 class="text-5xl mb-4 font-serif font-extralight text-white"> Community information</h1>
+            <div class="h-2 w-48 bg-sky-600 mb-6"></div>
+            <p class="leading-relaxed text-justify text-2xl mb-4">Select city and find all the active communities in that city.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font mt-5">
+    <div class="container px-5 py-18 mx-auto flex flex-wrap flex-col">
+      <div class="flex mx-auto flex-wrap mb-5">
+        <a onclick="divVisibility('Div1');"
+          class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-4 title-font font-medium  inline-flex items-center leading-none text-gray-400 hover:border-sky-500  hover:text-sky-500 tracking-wider rounded-t"
+          href="#page1">
+          <h2 class=" text-2xl font-serif ">Rajkot</h2>
+        </a>
+        <a onclick="divVisibility('Div2');"
+          class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-4 title-font font-medium inline-flex items-center leading-none text-gray-400 hover:border-sky-500  hover:text-sky-500 tracking-wider rounded-t"
+          href="#page2">
+          <h2 class=" text-2xl font-serif">Ahemdabad</h2>
+        </a>
+        <a onclick="divVisibility('Div3');"
+          class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-4 title-font font-medium inline-flex items-center leading-none text-gray-400 hover:border-sky-500  hover:text-sky-500 tracking-wider rounded-t"
+          href="#page3">
+          <h2 class=" text-2xl font-serif">Gandhinagar</h2>
+        </a>
+        <a onclick="divVisibility('Div4');"
+          class="sm:px-6 py-1 w-1/2 sm:w-auto justify-center sm:justify-start border-b-4 title-font font-medium inline-flex items-center leading-none text-gray-400 hover:border-sky-500  hover:text-sky-500 tracking-wider rounded-t"
+          href="#page4">
+          <h2 class=" text-2xl font-serif">Vadodara</h2>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font mt-10" id="Div1" style="display:block;">
+    <h1 class="text-center text-white text-4xl">Rajkot</h1>
+    <div class="container mr-64  ">
+      <div class="container px-5 py-10 mx-auto">
+
+        <div class="flex flex-wrap mx-24">
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">GEC Rajkot</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/government-engineering-college-rajkot/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">GEC Rajkot</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://codechef-gec-rajkot-chapter.github.io/main/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">VVP Engineering College</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://vvpedulink.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+        
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Add new community</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">ADD YOUR COMMUNITY THROUGH FORM</p>
+
+              <button class="text-gray-300   w-36 h-10  rounded-lg border-4 bg-gray-900 border-gray-200 hover:border-sky-500 hover:bg-gray-800 text-xl font-serif" id="but1" >add </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="popop" id="popup">
+    <div class="popop-content">
+
+      <section class="new-community bg-gray-800 border-4 border-sky-500">
+        <div class="create-community mb-2 text-white ">
+          <div class="title mb-3 font-serif text-2xl">Create new Community</div>
+          <div class="discription mb-3 font-serif">Want to add new Community, just fill out the below
+            form.
+          </div>
+          <div class="form font-serif border-4 border-sky-700">
+            <p>1. Community Name</p>
+            <input class=" bg-gray-700" type="text" placeholder="Techies" />
+      
+            <p>2. Website</p>
+            <input class=" bg-gray-700" type="url" placeholder="https://abcd.com"/>
+      
+            <p>3. Email</p>
+            <input class=" bg-gray-700" type="email" placeholder="abc@gmail.com"/>
+            <p>4. City</p>
+            <input class=" bg-gray-700 hover:border-sky-500" type="text" placeholder="Mumbai" />
+  
+            <p>5. Country</p>
+            <input class=" bg-gray-700" type="text" placeholder="India" />
+      
+            <p>6. Community Type</p>
+            <select class=" bg-gray-700">
+              <option class=" hover:text-sky-500">--Select Community Type</option>
+              <option>Tech</option>
+              <option>Non-Tech</option>
+            </select>
+            <div class="button space-x-3">
+              <button class=" border-white border-2 font-serif px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="submit">submit</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="reset">rest</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" id="clos">close</button>
+             
+            </div>
+            
+        </div>
+      </section>
+  
+
+    </div>
+  </div>
+
+
+
+  <section class="text-gray-600 body-font mt-10" id="Div2" style="display:none;">
+    <h1 class="text-center text-white text-4xl">Ahemdabad</h1>
+    <div class="container mr-64  ">
+      <div class="container px-5 py-10 mx-auto">
+
+        <div class="flex flex-wrap mx-24">
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Ahmedabad University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/ahmedabad-university/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Indus University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/indus-university-ahmedabad/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">New L. J. Institute of Engineering and Technology</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/new-l-j-institute-of-engineering-and-technology-ahmedabad/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Nirma University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/nirma-university-ahmedabad/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Vishwakarma Government Engineering College</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/vishwakarma-government-engineering-college-ahmedabad/" target="_blank">Website</a></p>
+
+            </div>
+          </div>
+
+       
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">L.D.College Of Engineering</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="http://ldce.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">School of Engineering and Applied Science (SEAS), Ahmedabad University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://ahduni.edu.in/seas/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Add new community</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">ADD YOUR COMMUNITY THROUGH FORM</p>
+
+              <button class="text-gray-300   w-36 h-10  rounded-lg border-4 bg-gray-900 border-gray-200 hover:border-sky-500 hover:bg-gray-800 text-xl font-serif" id="but2" >add </button>
+
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="popop" id="popup">
+    <div class="popop-content">
+
+      <section class="new-community bg-gray-800 border-4 border-sky-500">
+        <div class="create-community mb-2 text-white ">
+          <div class="title mb-3 font-serif text-2xl">Create new Community</div>
+          <div class="discription mb-3 font-serif">Want to add new Community, just fill out the below
+            form.
+          </div>
+          <div class="form font-serif border-4 border-sky-700">
+            <p>1. Community Name</p>
+            <input class=" bg-gray-700" type="text" placeholder="Techies" />
+      
+            <p>2. Website</p>
+            <input class=" bg-gray-700" type="url" placeholder="https://abcd.com"/>
+      
+            <p>3. Email</p>
+            <input class=" bg-gray-700" type="email" placeholder="abc@gmail.com"/>
+            <p>4. City</p>
+            <input class=" bg-gray-700 hover:border-sky-500" type="text" placeholder="Mumbai" />
+  
+            <p>5. Country</p>
+            <input class=" bg-gray-700" type="text" placeholder="India" />
+      
+            <p>6. Community Type</p>
+            <select class=" bg-gray-700">
+              <option class=" hover:text-sky-500">--Select Community Type</option>
+              <option>Tech</option>
+              <option>Non-Tech</option>
+            </select>
+            <div class="button space-x-3">
+              <button class=" border-white border-2 font-serif px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="submit">submit</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="reset">rest</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" id="clos">close</button>
+             
+            </div>
+            
+        </div>
+      </section>
+  
+
+    </div>
+  </div>
+
+  
+
+
+  <section class="text-gray-600 body-font mt-10" id="Div3" style="display:none;">
+    <h1 class="text-center text-white text-4xl">Gandhinagar</h1>
+    <div class="container mr-64  ">
+      <div class="container px-5 py-10 mx-auto">
+
+        <div class="flex flex-wrap mx-24">
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">GEC Gandhinagar</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/government-engineering-college-gandhinagar/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Pandit Deendayal Energy University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/pandit-deendayal-energy-university-gandhinagar/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Dhirubhai Ambani Institute of Information & Communication Technology</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/dhirubhai-ambani-institute-of-information-communication-technology-gandhinagar/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Pandit Deendayal Energy University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="http://pdpu.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">IIT Gandhinagar</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://iitgn.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">GEC Gandhinagar</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://www.gecg28.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Add new community</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">ADD YOUR COMMUNITY THROUGH FORM</p>
+
+              <button class="text-gray-300   w-36 h-10  rounded-lg border-4 bg-gray-900 border-gray-200 hover:border-sky-500 hover:bg-gray-800 text-xl font-serif" id="but3" >add </button>
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <div class="popop" id="popup">
+    <div class="popop-content">
+      <section class="new-community bg-gray-800 border-4 border-sky-500">
+        <div class="create-community mb-2 text-white ">
+          <div class="title mb-3 font-serif text-2xl">Create new Community</div>
+          <div class="discription mb-3 font-serif">Want to add new Community, just fill out the below
+            form.
+          </div>
+          <div class="form font-serif border-4 border-sky-700">
+            <p>1. Community Name</p>
+            <input class=" bg-gray-700" type="text" placeholder="Techies" />
+      
+            <p>2. Website</p>
+            <input class=" bg-gray-700" type="url" placeholder="https://abcd.com"/>
+      
+            <p>3. Email</p>
+            <input class=" bg-gray-700" type="email" placeholder="abc@gmail.com"/>
+            <p>4. City</p>
+            <input class=" bg-gray-700 hover:border-sky-500" type="text" placeholder="Mumbai" />
+  
+            <p>5. Country</p>
+            <input class=" bg-gray-700" type="text" placeholder="India" />
+      
+            <p>6. Community Type</p>
+            <select class=" bg-gray-700">
+              <option class=" hover:text-sky-500">--Select Community Type</option>
+              <option>Tech</option>
+              <option>Non-Tech</option>
+            </select>
+            <div class="button space-x-3">
+              <button class=" border-white border-2 font-serif px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="submit">submit</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="reset">rest</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" id="clos">close</button>
+             
+            </div>
+            
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <section class="text-gray-600 body-font mt-10" id="Div4" style="display:none;">
+    <h1 class="text-center text-white text-4xl">Vadodara</h1>
+    <div class="container mr-64  ">
+      <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-wrap mx-24">
+          
+        <div class="flex flex-wrap mx-24">
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Parul University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/parul-university-vadodara/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Navrachana University</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/navrachana-university-vadodara/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">Babaria Institute of Technology</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/babaria-institute-of-technology-vadodara/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Google Developer Student Clubs</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">IIIT Vadodara</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="https://gdsc.community.dev/indian-institute-of-information-technology-vadodara/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">CodeChef College Chapter</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">IIIT Vadodara</p>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">
+                <a class="website-link" href="http://iiitvadodara.ac.in/" target="_blank">Website</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border-2 border-gray-200 p-6 rounded-lg hover:scale-90 hover:border-sky-500">
+
+              <h2 class="text-lg text-gray-200 font-medium title-font mb-4">Add new community</h2>
+
+              <p class="leading-relaxed text-base mb-2 hover:text-sky-500">ADD YOUR COMMUNITY THROUGH FORM</p>
+
+              <button class="text-gray-300   w-36 h-10  rounded-lg border-4 bg-gray-900 border-gray-200 hover:border-sky-500 hover:bg-gray-800 text-xl font-serif" id="but4" >add </button>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="popop" id="popup">
+    <div class="popop-content">
+      <section class="new-community bg-gray-800 border-4 border-sky-500">
+        <div class="create-community mb-2 text-white ">
+          <div class="title mb-3 font-serif text-2xl">Create new Community</div>
+          <div class="discription mb-3 font-serif">Want to add new Community, just fill out the below
+            form.
+          </div>
+          <div class="form font-serif border-4 border-sky-700">
+            <p>1. Community Name</p>
+            <input class=" bg-gray-700" type="text" placeholder="Techies" />
+      
+            <p>2. Website</p>
+            <input class=" bg-gray-700" type="url" placeholder="https://abcd.com"/>
+      
+            <p>3. Email</p>
+            <input class=" bg-gray-700" type="email" placeholder="abc@gmail.com"/>
+            <p>4. City</p>
+            <input class=" bg-gray-700 hover:border-sky-500" type="text" placeholder="Mumbai" />
+  
+            <p>5. Country</p>
+            <input class=" bg-gray-700" type="text" placeholder="India" />
+      
+            <p>6. Community Type</p>
+            <select class=" bg-gray-700">
+              <option class=" hover:text-sky-500">--Select Community Type</option>
+              <option>Tech</option>
+              <option>Non-Tech</option>
+            </select>
+            <div class="button space-x-3">
+              <button class=" border-white border-2 font-serif px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="submit">submit</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" type="reset">rest</button>
+              <button class=" border-white border-2 font-serif  px-3 bg-gray-900 hover:border-sky-500 text-white rounded-lg" id="clos">close</button>
+             
+            </div>
+            
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <section class="text-gray-600 body-font px-24 mt-10">
+    <div class="container px-5   flex flex-wrap items-center">
+      <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 ">
+
+
+
+        <div class="container px-5 py-6  mx-auto ml-48" id="contact">
+          <h1
+            class="text-6xl title-font text-gray-100 mb-12 text-center font-serif font-extralight hover:text-sky-500 hover:translate-x-10">
+            Contact Us </h1>
+        </div>
+
+
+        <div class=" flex-col mb-24">
+
+          <div class=" flex mb-6">
+            <h1 class="title-font font-medium text-4xl text-gray-200 font-serif hover:text-sky-600 hover:translate-x-6">
+              1. Saurav Sutaria</h1>
+
+            <span class="inline-flex space-x-8 ml-56">
+
+              <a
+               href="http://www.linkedin.com/in/saurav-sutaria" class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                <svg class="w-12 h-12" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Linkedin</title>
+                  <g id="Icon/Social/linkedin-color" stroke-width="1" fill-rule="evenodd">
+                    <path
+                      d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z"
+                      id="Shape" fill="#007BB5"></path>
+                  </g>
+                </svg>
+              </a>
+
+              <a
+             href="https://twitter.com/SauravSutaria?s=09"   class="text-gray-200 hover:scale-125 stroke-gray-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900 ">
+                <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-10 h-10"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+
+                <a
+                href="https://github.com/Saurav-Sutaria"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-11 h-11" viewBox="0 0 25 25">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+            </span>
+
+
+          </div>
+
+          <div class=" flex mb-6">
+            <h1 class="title-font font-medium text-4xl text-gray-200 font-serif hover:text-sky-600 hover:translate-x-6">
+              2. Ajitkumar Vaghela</h1>
+
+            <span class="inline-flex space-x-8 ml-40">
+              <a
+                 href="https://www.linkedin.com/in/vaghela-ajitkumar-092605222/"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                <svg class="w-12 h-12" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Linkedin</title>
+                  <g id="Icon/Social/linkedin-color" stroke-width="1" fill-rule="evenodd">
+                    <path
+                      d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z"
+                      id="Shape" fill="#007BB5"></path>
+                  </g>
+                </svg>
+              </a>
+
+              <a
+                href="https://twitter.com/Ajitkumar075" class="text-gray-200 hover:scale-125 stroke-gray-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900 ">
+                <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-10 h-10"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+
+                <a
+                 href="https://github.com/ajitkumar1264"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-11 h-11" viewBox="0 0 25 25">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+            </span>
+
+          </div>
+
+
+          <div class=" flex mb-6">
+            <h1 class="title-font font-medium text-4xl text-gray-200 font-serif hover:text-sky-600 hover:translate-x-6">
+              3. Mahmadamin Lodhiya</h1>
+
+            <span class="inline-flex space-x-8 ml-24">
+              <a
+               href="https://www.linkedin.com/in/mahmadamin-lodhiya-3b3466203/" class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                <svg class="w-12 h-12" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Linkedin</title>
+                  <g id="Icon/Social/linkedin-color" stroke-width="1" fill-rule="evenodd">
+                    <path
+                      d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z"
+                      id="Shape" fill="#007BB5"></path>
+                  </g>
+                </svg>
+              </a>
+
+              <a
+               href="https://twitter.com/Mahmadamin88" class="text-gray-200 hover:scale-125 stroke-gray-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900 ">
+                <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-10 h-10"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+
+                <a
+                 href="https://github.com/Mahmadamin08"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-11 h-11" viewBox="0 0 25 25">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+            </span>
+
+          </div>
+
+          <div class=" flex space-x-48 mb-6">
+            <h1 class="title-font font-medium text-4xl text-gray-200 font-serif hover:text-sky-600 hover:translate-x-6">
+              4. Sajan Pande</h1>
+
+            <span class="inline-flex space-x-8 ml-96">
+              <a
+               href="https://www.linkedin.com/in/sajan-pande-8745b420a"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900 ml-16 ">
+                <svg class="w-12 h-12" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Linkedin</title>
+                  <g id="Icon/Social/linkedin-color" stroke-width="1" fill-rule="evenodd">
+                    <path
+                      d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z"
+                      id="Shape" fill="#007BB5"></path>
+                  </g>
+                </svg>
+              </a>
+
+              <a
+              href="https://mobile.twitter.com/SajanPande3"  class="text-gray-200 hover:scale-125 stroke-gray-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900 ">
+                <svg stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-10 h-10"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+
+                <a
+                href="https://github.com/sajan84"  class="text-gray-200 hover:scale-125 stroke-sky-200 hover:stroke-sky-500 fill-gray-900 hover:fill-sky-900  ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-11 h-11" viewBox="0 0 25 25">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+            </span>
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+   
+  
+
+   
+   
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
